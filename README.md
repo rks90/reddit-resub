@@ -43,6 +43,7 @@ Example Usage
  pip install -r requirements.txt
 ```
 * User account authentication setup
+```
    Follow this page to setup OAuth on Reddit
    	https://alpscode.com/blog/how-to-use-reddit-api/
    Get the client-id and client-secret
@@ -52,3 +53,4 @@ Example Usage
    client_secret=<copy from previous step>
    password=<your password>
    username=<your user name>
+```
