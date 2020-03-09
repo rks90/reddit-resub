@@ -15,13 +15,15 @@ Set up environment
  virtualenv . -p python3 #if not installed use sudo apt-get install virtualenv
  source bin/activate
  pip install -r requirements.txt
-```
-* User account authentication setup
-```
+
+User account authentication setup
+==================================
+
    Follow this page to setup OAuth on Reddit
    	https://alpscode.com/blog/how-to-use-reddit-api/
    Get the client-id and client-secret
    Create a pram.ini file in the running dir and add the following
+
    [<Username(or any name of your choosing, use this in user option below)>]
    client_id=<copy from previous step>
    client_secret=<copy from previous step>
